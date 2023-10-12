@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Customer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <lastName> jyt</lastName>
+  <firstName> ghjyg</firstName>
+  <phoneNumber> 333</phoneNumber>
+  <heightInches>72</heightInches>
+  <weightLbs>200</weightLbs>
+  <customerBMI>27</customerBMI>
+  <statusTitle>Overweight</statusTitle>
+</Customer>
