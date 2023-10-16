@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Customer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <lastName> </lastName>
-  <firstName> </firstName>
-  <phoneNumber> </phoneNumber>
+  <lastName>the builder </lastName>
+  <firstName> bob</firstName>
+  <phoneNumber>3330003333 </phoneNumber>
   <heightInches>72</heightInches>
   <weightLbs>200</weightLbs>
   <customerBMI>27</customerBMI>

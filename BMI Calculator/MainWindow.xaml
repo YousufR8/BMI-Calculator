@@ -48,6 +48,17 @@
         <Button x:Name="ClearBtn" Grid.Column="2" Content="Clear" HorizontalAlignment="Left" Grid.Row="6" VerticalAlignment="Center" RenderTransformOrigin="-0.772,0.894" FontSize="16" Width="95" Height="26" Margin="22,0,0,0" Click="ClearBtn_Click"/>
         <Button x:Name="ImportBtn" Grid.Column="3" Content="Import" HorizontalAlignment="Left" Margin="61,0,0,0" Grid.Row="6" VerticalAlignment="Center" RenderTransformOrigin="-0.772,0.894" FontSize="16" Width="95" Grid.ColumnSpan="2"/>
         <Button x:Name="ExitBtn" Grid.Column="6" Content="Exit" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="6" VerticalAlignment="Center" RenderTransformOrigin="-0.772,0.894" FontSize="16" Width="95" Click="ExitBtn_Click"/>
+        <ListView x:Name="customerListView" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="428" Grid.Column="1" Grid.ColumnSpan="5" Margin="10,0,0,211" Grid.Row="7">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="bob" Width="100" DisplayMemberBinding="{Binding firstName}" />
+                    <GridViewColumn Header="Fred" Width="100" DisplayMemberBinding="{Binding lastName}" />
+                    <GridViewColumn Header="3308675310 Number" Width="100" DisplayMemberBinding="{Binding phoneNumber}" />
+                    <GridViewColumn Header="70" Width="50" DisplayMemberBinding="{Binding weightLbs}" />
+                    <GridViewColumn Header="120" Width="50" DisplayMemberBinding="{Binding heightInches}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
 
     </Grid>
 </Window>
